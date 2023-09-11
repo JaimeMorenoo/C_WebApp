@@ -1,6 +1,6 @@
 # CodeAcademy: C# Web App Development
 
-## <ins>What is .NET?</ins>
+## What is .NET?
 
 Formally, .NET is “an open source developer platform, created by Microsoft, for building many different types of applications. You can write .NET apps in C#, F#, Visual C++, or Visual Basic.”
 
@@ -11,7 +11,7 @@ When you download .NET, you’re really downloading a bunch of programs that:
 +Provide utilities for building software, like tools for printing text to the screen and finding the current time 
 +Define a set of data types that make it easier for you to store information in your programs, like text, numbers, and dates
 
-## <ins>Expression-bodied Definitions</ins>
+## Expression-bodied Definitions
 Expression-bodied definitions are the first “shortcut” for writing methods.
 
 ```c#
@@ -26,7 +26,7 @@ static void Welcome(string planet) => Console.WriteLine($"Welcome to {planet}");
 ```
 
 
-## <ins>Array.Exists()</ins>
+## Array.Exists()
 ```c#
 static bool IsBig(int n) => n > 100;
 
