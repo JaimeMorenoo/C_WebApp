@@ -1,0 +1,15 @@
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\bin\Debug\net6.0\Supernatural Inheritance.exe
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\bin\Debug\net6.0\Supernatural Inheritance.deps.json
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\bin\Debug\net6.0\Supernatural Inheritance.runtimeconfig.json
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\bin\Debug\net6.0\Supernatural Inheritance.dll
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\bin\Debug\net6.0\Supernatural Inheritance.pdb
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\obj\Debug\net6.0\Supernatural Inheritance.csproj.AssemblyReference.cache
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\obj\Debug\net6.0\Supernatural Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\obj\Debug\net6.0\Supernatural Inheritance.AssemblyInfoInputs.cache
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\obj\Debug\net6.0\Supernatural Inheritance.AssemblyInfo.cs
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\obj\Debug\net6.0\Supernatural Inheritance.csproj.CoreCompileInputs.cache
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\obj\Debug\net6.0\Supernatural Inheritance.dll
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\obj\Debug\net6.0\refint\Supernatural Inheritance.dll
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\obj\Debug\net6.0\Supernatural Inheritance.pdb
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\obj\Debug\net6.0\Supernatural Inheritance.genruntimeconfig.cache
+E:\00_Programacion\C# WebApp Development\projects\Supernatural Inheritance\Supernatural Inheritance\obj\Debug\net6.0\ref\Supernatural Inheritance.dll
