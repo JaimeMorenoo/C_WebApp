@@ -20,17 +20,9 @@ namespace SavingInterface
         }
 
         public void Add(string todo)
-        {   
-            if (Todos.Length < 5)
-            {
+        {            
                 Todos[nextOpenIndex] = todo;
                 nextOpenIndex++;
-
-            }
-            else
-            {   
-                Console.WriteLine("Maximum 5 todo");
-            }
             
         }
 

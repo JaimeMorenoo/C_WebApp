@@ -119,10 +119,166 @@ Forest f = new Forest(400);
 
 ### Review
 + In general, static means “associated with the class, not an instance”.
-+ A static member is always accessed by the class name, rather than the instance name, like Forest.Area.
++ A static member is always accessed by the class name, rather than the instance name, like Forest.Area and not f.Area.
 + A static method cannot access non-static members.
 + A static constructor is run once per type, not per instance. It is invoked before the type is instantiated or a static member is accessed.
 + Either of these would trigger the static constructor of Forest:
+
+
+## Interfaces
+
+The must start with an I to remember ourselves that it is an **Interface**
+```c#
+interface IAutomobile
+{
+  string Id { get; }
+  double Speed {get;}
+  void Vroom();
+}
+```
+Notice that the property and method bodies are not defined. An interface is a set of actions and values, but it doesn’t specify how they work.
+
+### Implementing the Interface
+In C#, we must first clearly announce that a class implements an interface using the colon syntax:
+```c#
+class Sedan : IAutomobile
+{
+}
+// This will error, it must have the properties and methods the highway patrol asked for (Speed, LicensePlate, Wheels, and Honk()).
+
+//So we do the following:
+class Sedan : IAutomobile
+{
+  public string LicensePlate
+  { get; }
+  
+  // and so on...
+}
+```
+When you create an Interface you can use it with many different classes as long as it has the properties of the interface.
+```c#
+using System;
+
+namespace LearnInterfaces
+{
+  class Truck : IAutomobile
+  {
+  	public string LicensePlate
+    { get; }
+
+    public double Speed
+    { get; private set; } // We need to create a set here in order to be able to change the value in a method. We do it private so only this class method can do it
+
+    public int Wheels
+    { get; }
+     
+    public void Honk()
+    {
+      Console.WriteLine("HONK!");
+    }
+
+    public double Weight {get;}
+
+    public Truck(double speed, double weight){
+      this.Speed = speed;
+      this.Weight = weight;
+      this.LicensePlate = Tools.GenerateLicensePlate();
+      if(weight < 400){
+        this.Wheels = 8;
+      }
+      else{
+        this.Wheels = 12;
+      }
+    }
+
+    public void SpeedUp(){
+      this.Speed += 5;
+    }
+    public void SlowDown(){
+      this.Speed -= 5;
+    }
+
+  }
+}
+```
+
+## Inheritance
+
+In the interfaces the properties had to be used. Here in class Inheritance it is not necessary.
+
+Lets create a vehicle class:
+```c#
+using System;
+
+namespace LearnInheritance
+{
+class Vehicle{
+public string LicensePlate {get;}
+public double Speed {get; private set;}
+public int Wheels {get;}
+
+public void Honk(){
+  Console.WriteLine("Honk!");
+}
+
+public void SpeedUp(){
+  this.Speed += 5;
+}
+
+public void SlowDown(){
+  this.Speed -= 5;
+}
+
+}  
+}
+```
+And now in the Sedan class we can make it inherit vehicle.
+```c#
+using System;
+
+namespace LearnInheritance
+{
+  class Sedan : Vehicle
+  {
+    
+  }
+}
+```
+
+### Virtual & Override
+
+If we want to change how a method works, we need to name it virtual just in case a class that inherits will change it
+```c#
+// In the Vehicle Class:
+public virtual void SpeedUp()
+    {
+      Speed += 5;
+    }
+
+    public virtual void SlowDown()
+    {
+      Speed -= 5;
+    }
+
+// In the class that inherits:
+public override void SpeedUp(){
+    this.Speed += 5;
+    if(this.Speed > 15){
+      this.Speed = 15;
+    }
+  }
+
+    public override void SlowDown(){
+    this.Speed -= 5;
+    if(this.Speed < 0){
+      this.Speed = 0;
+    }
+  }
+```
+### Abstract
+
+This is like the Vehicle class telling its subclasses: “If you inherit from me, you must define a Describe() method because I won’t be giving you any default functionality to inherit.” In other words, abstract members have no implementation in the superclass, but they must be implemented in all subclasses.
+
 
 
 
