@@ -1,0 +1,15 @@
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\bin\Debug\net6.0\Rover Control Center.exe
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\bin\Debug\net6.0\Rover Control Center.deps.json
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\bin\Debug\net6.0\Rover Control Center.runtimeconfig.json
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\bin\Debug\net6.0\Rover Control Center.dll
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\bin\Debug\net6.0\Rover Control Center.pdb
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\obj\Debug\net6.0\Rover Control Center.csproj.AssemblyReference.cache
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\obj\Debug\net6.0\Rover Control Center.GeneratedMSBuildEditorConfig.editorconfig
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\obj\Debug\net6.0\Rover Control Center.AssemblyInfoInputs.cache
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\obj\Debug\net6.0\Rover Control Center.AssemblyInfo.cs
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\obj\Debug\net6.0\Rover Control Center.csproj.CoreCompileInputs.cache
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\obj\Debug\net6.0\Rover Control Center.dll
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\obj\Debug\net6.0\refint\Rover Control Center.dll
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\obj\Debug\net6.0\Rover Control Center.pdb
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\obj\Debug\net6.0\Rover Control Center.genruntimeconfig.cache
+E:\00_Programacion\C# WebApp Development\projects\Rover Control Center\obj\Debug\net6.0\ref\Rover Control Center.dll
