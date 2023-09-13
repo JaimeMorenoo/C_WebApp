@@ -8,5 +8,8 @@ namespace Rover_Control_Center
 {
     internal interface IDirectable
     {
+        string GetInfo();
+        string Explore();
+        string Collect();
     }
 }
