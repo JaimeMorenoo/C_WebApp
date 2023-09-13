@@ -22,6 +22,9 @@
             Archmage am = new Archmage("Sylvanas");
             Storm light = am.CastRainStorm();
             Console.WriteLine(light.Announce());
+
+            //Tenemos la clase storm con el metodo Announce que dice q tipo de spell se ha usado
+            //Cada clase (pupil, mage, archmage) tienen un storm diferente.
         }
     }
 }
